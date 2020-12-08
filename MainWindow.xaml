@@ -1,0 +1,29 @@
+﻿<Window x:Class="MadlibWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MadlibWPF"
+        mc:Ignorable="d"
+        Title="Madlib 2.0" Height="579.021" Width="559.267">
+    <Grid Margin="39,0,47,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="49*"/>
+            <ColumnDefinition Width="6*"/>
+            <ColumnDefinition Width="58*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock HorizontalAlignment="Left" Margin="-14,195,-11.407,26" TextWrapping="Wrap" Width="454" Grid.ColumnSpan="3"><Run FontSize="24" Text="They all agreed that it was a huge"/><LineBreak/><Run FontSize="24" Text="                   ,                  , and                   . "/><LineBreak/><Run FontSize="24" Text="I have cross-examined these men, one of them a hard-headed                    , one a  "/><LineBreak/><Run FontSize="24" Text="                  , and one a moorland "/><LineBreak/><Run FontStretch="ExtraExpanded" FontSize="24" Text="                  , who all tell the same story of this                                     , exactly corresponding to the                    of the legend."/><LineBreak/><Run/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Height="33" Margin="15.363,292,0,0" TextWrapping="Wrap" Text="Occupation" VerticalAlignment="Top" Width="116" TextChanged="TextBox_TextChanged" FontSize="20" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <TextBox HorizontalAlignment="Left" Height="59" Margin="97,30,0,0" TextWrapping="Wrap" Text="  MADLIB 2.0" VerticalAlignment="Top" Width="261" TextChanged="TextBox_TextChanged" FontSize="36" FontFamily="Segoe UI Black" Grid.ColumnSpan="3"/>
+        <TextBlock HorizontalAlignment="Left" Margin="3,94,0,388" TextWrapping="Wrap" Width="454" Grid.ColumnSpan="3"><Run Text="Fill in key parts of the story using the text boxes below." FontSize="20" FontFamily="Segoe UI Black"/><LineBreak/><Run/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Height="33" Margin="-14,319,0,0" TextWrapping="Wrap" Text="Occupation" VerticalAlignment="Top" Width="116" TextChanged="TextBox_TextChanged" FontSize="20"/>
+        <TextBox HorizontalAlignment="Left" Height="33" Margin="-14,354,0,0" TextWrapping="Wrap" Text="Occupation" VerticalAlignment="Top" Width="116" TextChanged="TextBox_TextChanged" FontSize="20"/>
+        <TextBox HorizontalAlignment="Left" Height="33" Margin="32,389,0,0" TextWrapping="Wrap" Text="  Adjective" VerticalAlignment="Top" Width="116" TextChanged="TextBox_TextChanged" FontSize="20"/>
+        <TextBox HorizontalAlignment="Left" Height="33" Margin="-10,231,0,0" TextWrapping="Wrap" Text="  Adjective" VerticalAlignment="Top" Width="116" TextChanged="TextBox_TextChanged" FontSize="20"/>
+        <TextBox HorizontalAlignment="Left" Height="33" Margin="117,231,0,0" TextWrapping="Wrap" Text="  Adjective" VerticalAlignment="Top" Width="116" TextChanged="TextBox_TextChanged" FontSize="20" Grid.ColumnSpan="3"/>
+        <TextBox HorizontalAlignment="Left" Height="33" Margin="67.363,231,0,0" TextWrapping="Wrap" Text="  Adjective" VerticalAlignment="Top" Width="116" TextChanged="TextBox_TextChanged" FontSize="20" Grid.Column="2"/>
+        <TextBox HorizontalAlignment="Left" Height="33" Margin="123.363,196,0,0" TextWrapping="Wrap" Text="     Noun" VerticalAlignment="Top" Width="106" TextChanged="TextBox_TextChanged" FontSize="20" Grid.Column="2"/>
+        <TextBox HorizontalAlignment="Left" Height="33" Margin="150,389,0,0" TextWrapping="Wrap" Text="      Noun" VerticalAlignment="Top" Width="116" TextChanged="TextBox_TextChanged" FontSize="20" Grid.ColumnSpan="3"/>
+        <TextBox HorizontalAlignment="Left" Height="33" Margin="18.363,423,0,0" TextWrapping="Wrap" Text="     Noun" VerticalAlignment="Top" Width="116" TextChanged="TextBox_TextChanged" FontSize="20" Grid.Column="1" Grid.ColumnSpan="2"/>
+    </Grid>
+</Window>
